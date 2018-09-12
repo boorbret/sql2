@@ -6,7 +6,7 @@ SQL Lesson 2 Drill
 #drill one: The ID's and durations for all trips of duration greater than 500, ordered by duration. every column for station id 84
 
 SELECT\
-    trip_id,\
+	trip_id,\
 	duration
 FROM
     trips
