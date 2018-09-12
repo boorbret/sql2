@@ -17,12 +17,12 @@ ORDER BY duration DESC
 
 #drill two: all columns for station id 84
 
-SELECT
-    *
-FROM
-    stations
-WHERE
-    station_id = 84
+SELECT  
+    *  
+FROM  
+    stations  
+WHERE  
+    station_id = 84  
 
 #drill three: min temperature for days with rain and zip code 94301
 
