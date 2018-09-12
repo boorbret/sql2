@@ -23,3 +23,13 @@ FROM
     stations
 WHERE
     station_id = 84
+
+#drill three: min temperature for days with rain and zip code 94301
+
+SELECT 
+     MinTemperatureF
+FROM 
+    weather
+WHERE 
+    Events like 'rain' AND 
+	ZIP = 94301
