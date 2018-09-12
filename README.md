@@ -1,9 +1,7 @@
-# sql2
-SQL Lesson 2 Drill
+# SQL Lesson 2 Drills
 
-#bikeshare SQL drills 
 
-#**Drill one**: The ID's and durations for all trips of duration greater than 500, ordered by duration. every column for station id 84
+## **Drill one**: The ID's and durations for all trips of duration greater than 500, ordered by duration. every column for station id 84
 
 ```
 SELECT
@@ -17,7 +15,7 @@ WHERE
 ORDER BY duration DESC
 ```
 
-#**Drill two**: all columns for station id 84
+## **Drill two**: all columns for station id 84
 
 ```
 SELECT  
@@ -28,7 +26,7 @@ WHERE
     station_id = 84  
 ```
 
-#**Drill three**: min temperature for days with rain and zip code 94301
+## **Drill three**: min temperature for days with rain and zip code 94301
 
 ```
 SELECT 
